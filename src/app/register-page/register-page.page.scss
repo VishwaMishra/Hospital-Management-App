@@ -1,0 +1,21 @@
+#app-head {
+  text-align: center;
+}
+
+#container{
+  align-items: center;
+}
+#footer {
+  text-align: center;
+  color: lightness($color: #000000);
+}
+
+#btn-row{
+  align-self:center;
+  padding-left: 20px;
+}
+.form-div{
+  padding-left: 20px;
+  margin: 10px, auto;
+  border-bottom:  1px black;
+}

@@ -1,0 +1,50 @@
+<ion-header id="app-head" [translucent]="true">
+  <ion-toolbar>
+    <ion-title color="primary">
+      Hospital Management System
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content id="container" fullscreen>
+  
+  <ion-list lines="full" class="ion-no-margin ion-no-padding"> 
+    <ion-item class="form-div">
+      <ion-input autofocus="true"> Name: </ion-input>
+    </div>
+
+    <div class="form-div">
+      <ion-input>Gender: </ion-input>
+    </div>
+
+    <div class="form-div">
+      <ion-input>Age: </ion-input>
+    </div>
+
+    <div class="form-div">
+      <ion-input>Contact: </ion-input>
+    </div>
+
+    <div class="form-div">
+      <ion-input>Address: </ion-input>
+    </div>
+
+    <div class="form-div">
+      <ion-input>Problem Description: </ion-input>
+    </div>
+  </ion-list>
+
+  <ion-row id="btn-row">
+    <ion-col size="12" size-md>
+      <ion-button routerLink="['/Home']">Home</ion-button>
+      <ion-button>Reset</ion-button>
+      <ion-button>Submit</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title id="footer"> Copyright@CT20192673811</ion-title>
+  </ion-toolbar>
+</ion-footer>
